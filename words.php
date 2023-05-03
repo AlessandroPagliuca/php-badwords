@@ -2,9 +2,11 @@
 
 
 if(isset($_POST['paragraph']) && isset($_POST['word'])) {
-	$paragraph = $_POST['paragraph'];
+	$paragraph = trim($_POST['paragraph']);
 	$censored_word = trim($_POST['word']);
 	
+} else{
+    echo "<p>Errore: dati mancanti.</p>";
 }
 
 // sostituisce la parola da censurare ***
@@ -36,6 +38,7 @@ $censored_paragraph = str_replace($censored_word, '***', $paragraph);
         <?php echo 'Lunghezza paragrafo censurato:' . " " . strlen($censored_paragraph) ?> 
     </p>
 
+    
     
 </body>
 </html>
