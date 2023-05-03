@@ -9,14 +9,12 @@
 <body>
 
     <form action="words.php" method="POST">
-        <label for="paragrafo">Paragrafo</label>
-        <input type="text" name="paragrafo" id="paragrafo">
-
-        <label for="parola">Parola</label>
-        <input type="text" name="parola" id="parola">
-
-        <button type="submit">Invia</button>
-    </form>
+		<label for="paragrafo">Paragrafo</label><br>
+		<textarea name="paragrafo" id="paragrafo" cols="30" rows="10"></textarea><br>
+		<label for="parola">Parola da censurare</label><br>
+		<input type="text" name="parola" id="parola"><br>
+		<input type="submit" value="Invia">
+	</form>
     
 </body>
 </html>
