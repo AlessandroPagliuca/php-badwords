@@ -4,8 +4,8 @@
 if(isset($_POST['paragraph']) && isset($_POST['word']) && !empty($_POST['paragraph']) && !empty($_POST['word'])) {
 	$paragraph = trim($_POST['paragraph']);
 	$censored_word = trim($_POST['word']);
-	// sostituisce la parola da censurare ***
-$censored_paragraph = str_replace($censored_word, '***', $paragraph);
+	// replaces the word to be censored ***
+    $censored_paragraph = str_replace($censored_word, '***', $paragraph);
 
 } else{
     $paragraph = 'Enter data in both boxes';
