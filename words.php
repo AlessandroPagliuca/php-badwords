@@ -5,8 +5,6 @@ if(isset($_POST['paragraph']) && isset($_POST['word'])) {
 	$paragraph = trim($_POST['paragraph']);
 	$censored_word = trim($_POST['word']);
 	
-} else{
-    echo "<p>Errore: dati mancanti.</p>";
 }
 
 // sostituisce la parola da censurare ***
