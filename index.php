@@ -7,7 +7,7 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-
+    <h1>Enter the data in the appropriate boxes</h1>
     <form action="words.php" method="POST">
 		<label for="paragraph">Paragraph</label><br>
 		<textarea name="paragraph" id="paragraph" cols="23" rows="10"></textarea><br>
