@@ -9,11 +9,11 @@
 <body>
 
     <form action="words.php" method="POST">
-		<label for="paragrafo">Paragrafo</label><br>
-		<textarea name="paragrafo" id="paragrafo" cols="30" rows="10"></textarea><br>
-		<label for="parola">Parola da censurare</label><br>
-		<input type="text" name="parola" id="parola"><br>
-		<input type="submit" value="Invia">
+		<label for="paragraph">Paragraph</label><br>
+		<textarea name="paragraph" id="paragraph" cols="23" rows="10"></textarea><br>
+		<label for="word">Censored word</label><br>
+		<input type="text" name="word" id="word"><br>
+		<input type="submit" value="Submit">
 	</form>
     
 </body>
