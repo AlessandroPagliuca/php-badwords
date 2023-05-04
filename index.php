@@ -13,7 +13,8 @@
 		<textarea name="paragraph" id="paragraph" cols="23" rows="10"></textarea><br>
 		<label for="word">Censored word</label><br>
 		<input type="text" name="word" id="word"><br>
-		<input type="submit" value="Submit">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
 	</form>
     
 </body>
